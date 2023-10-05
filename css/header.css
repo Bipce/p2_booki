@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header__title {
+    padding: 30px 0;
+    line-height: 19px;
+}
+
+.header__logo {
+    width: 62px;
+}
+
+.header__list {
+    display: flex;
+    flex-direction: row;
+    gap: 68px;
+}
+
+.header__list-element {
+    padding-top: 18px;
+}
+
+.header__list-element:hover {
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
+    padding-top: 1rem;
+}
