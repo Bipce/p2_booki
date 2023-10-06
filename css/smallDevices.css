@@ -1,0 +1,156 @@
+@media (max-width: 767.98px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    /*Header*/
+    .main-container {
+        padding: 0;
+    }
+
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header__list {
+        gap: 0;
+    }
+
+    .header__list-element {
+        width: 50%;
+        padding-top: 0;
+        padding-bottom: 17px;
+    }
+
+    .header__list-element:hover {
+        border-top: none;
+        border-bottom: 2px solid #0065FC;
+        padding-top: 0;
+        padding-bottom: 15px;
+    }
+
+    /*Info Section*/
+    .info-section {
+        padding: 0 20px;
+    }
+
+    /*Form*/
+    .form {
+        max-width: 330px;
+        width: 100%;
+    }
+
+    .form__input {
+        width: 100%;
+    }
+
+    .form__input-btn-text {
+        display: none;
+    }
+
+    .form__btn {
+        width: 49px;
+        height: 49px;
+        border-radius: 15px;
+        margin-left: -10px;
+    }
+
+    .form__btn-icon,
+    .form__input-icon {
+        display: block;
+    }
+
+    .form__input-icon {
+        color: #fff;
+    }
+
+    /*Filter*/
+    .filter-box__list {
+        flex-wrap: wrap;
+        gap: 10px;
+        font-size: 14px;
+    }
+
+    .filter-box__list-element {
+        margin-bottom: 5px;
+    }
+
+    /* Hebergements And Populaires  */
+    .hebergements-and-populaires {
+        gap: 35px;
+    }
+
+    .hebergements, .populaires {
+        padding: 0 20px;
+    }
+
+    /* Populaires */
+    .populaires {
+        margin: 0;
+        padding-bottom: 30px;
+    }
+
+    .populaires__title {
+        margin: 15px 0;
+    }
+
+    .populaires__cards {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .populaires__cards a {
+        width: 100%;
+    }
+
+    .populaires__card {
+        margin: 0;
+    }
+
+    .populaires__card-image {
+        width: 48%;
+    }
+
+    .populaires__card-content {
+        min-width: 52%;
+        flex-direction: column;
+    }
+
+    /* Hebergements */
+    .hebergements {
+        order: 2;
+        background-color: #fff;
+    }
+
+    .hebergements-cards__flex {
+        flex-direction: column;
+    }
+
+    /* Activities */
+    .activites-cards {
+        flex-direction: column;
+    }
+
+    .activites__card {
+        max-width: 700px;
+        width: 100%;
+    }
+
+    .activites__card-image {
+        height: 141px;
+    }
+
+    .activites__card-title {
+        height: 59px;
+    }
+
+    /* Footer */
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer__box {
+        width: 100%;
+    }
+}

@@ -44,7 +44,6 @@
 .form__input {
     height: 49px;
     flex: 1;
-    font-size: 18px;
     font-weight: 700;
     text-align: center;
     border: 1px solid #F2F2F2;
@@ -56,10 +55,14 @@
     background-color: #0065FC;
     border: none;
     color: #fff;
-    font-size: 18px;
     border-radius: 0 15px 15px 0;
     font-weight: 700;
     padding: 14px 16px;
+}
+
+.form__btn-icon,
+.form__input-icon {
+    display: none;
 }
 
 /*Filter*/
@@ -67,10 +70,6 @@
     display: flex;
     align-items: center;
     gap: 15px;
-}
-
-.filter-box__title {
-    font-size: 18px;
 }
 
 .filter-box__list {

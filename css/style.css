@@ -52,11 +52,10 @@ a {
 }
 
 .section-title {
-    margin: 0;
     font-size: 22px;
 }
 
-/*Cards*/
+/****** Cards ***********/
 .card {
     background-color: white;
     border-radius: 20px;
@@ -93,6 +92,14 @@ a {
     color: var(--main-bg-color)
 }
 
+.title-subtitle {
+    font-size: 18px;
+}
+
+/****** Margin ***********/
+.mb-15 {
+    margin-bottom: 15px;
+}
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
@@ -100,51 +107,9 @@ a {
     justify-content: space-between;
 }
 
-.hebergements-and-populaires section {
+.hebergements, .populaires {
     background-color: var(--main-bg-color);
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
-}
-
-/* Le code ci-dessous correspond à la version responsive uniquement */
-
-/****** Media queries ***********/
-/* Medium devices (tablets, less/equal than 1024px) */
-@media (max-width: 1024px) {
-    .hebergements-and-populaires {
-        flex-direction: column;
-    }
-
-    .hebergements {
-        width: 100%;
-    }
-
-    .populaires {
-        width: 100%;
-        margin-top: 50px;
-    }
-
-    .populaires__cards {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .populaires__cards a {
-        width: 30%;
-    }
-
-    .populaires__cards .populaires__card-title {
-        font-size: 14px;
-    }
-
-    .populaires__cards .card-subtitle {
-        font-size: 13px;
-    }
-}
-
-/* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
-    /* ... */
 }

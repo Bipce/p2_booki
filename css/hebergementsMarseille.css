@@ -4,13 +4,22 @@
 
 .hebergements-cards {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 30px;
     margin-top: 30px;
 }
 
-.hebergements__card {
-    width: 250px;
+.hebergements-card {
+    height: 100%;
+}
+
+.hebergements-cards__flex {
+    display: flex;
+    gap: 30px;
+}
+
+.hebergements-card__link {
+    flex: 1 1 0
 }
 
 .hebergements__card-image {
@@ -29,4 +38,5 @@
 .hebergements__text {
     font-weight: 700;
     font-size: 18px;
+    margin-top: 30px;
 }

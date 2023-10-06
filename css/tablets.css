@@ -1,0 +1,46 @@
+@media (max-width: 1024px) {
+    .filter-box {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .filter-box__list-element {
+        flex-shrink: 0;
+    }
+
+    .hebergements-and-populaires {
+        flex-direction: column;
+    }
+
+    .hebergements {
+        width: 100%;
+    }
+
+    .populaires {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .populaires__cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .populaires__cards a {
+        width: 32%;
+    }
+
+    /* Activities */
+    .activites__card {
+        max-width: 193px;
+    }
+
+    .activites__card-image {
+        height: 200px;
+    }
+
+    .activites__card-title {
+        height: 70px;
+    }
+}
