@@ -26,10 +26,10 @@
     position: relative;
     width: 50px;
     height: 49px;
-    background-color: #F2F2F2;
+    background-color: var(--main-bg-color);
     border-radius: 15px 0 0 15px;
     padding: 23px 24px;
-    border: 1px solid #F2F2F2;
+    border: 1px solid var(--main-bg-color);
 }
 
 .form__icon-location {
@@ -46,13 +46,13 @@
     flex: 1;
     font-weight: 700;
     text-align: center;
-    border: 1px solid #F2F2F2;
+    border: 1px solid var(--main-bg-color);
     outline: none;
 }
 
 .form__btn {
     width: 132px;
-    background-color: #0065FC;
+    background-color: var(--main-color);
     border: none;
     color: #fff;
     border-radius: 0 15px 15px 0;
@@ -79,13 +79,13 @@
 
 .filter-box__list-element {
     font-weight: 700;
-    border: 2px solid #F2F2F2;
+    border: 2px solid var(--main-bg-color);
     border-radius: 25px;
     padding: 12px 22px;
 }
 
 .filter-box__list-element:hover {
-    background-color: #DEEBFF;
+    background-color: var(--filter-bg-color);
 }
 
 .filter-box__list-icon {
