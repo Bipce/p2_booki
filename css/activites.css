@@ -1,29 +1,29 @@
-.activites {
+.activites-section {
     padding: 0 30px;
 }
 
-.activites-cards {
+.activites-section__cards {
     display: flex;
     justify-content: space-between;
     gap: 30px;
 }
 
-.activites__title {
+.activites-section__title {
     margin-bottom: 30px;
 }
 
-.activites__card {
+.activites-section__cards__card {
     max-width: 297px;
     padding: 0;
 }
 
-.activites__card-image {
+.activites-section__cards__card__image {
     width: 100%;
     height: 380px;
     border-radius: 20px 20px 0 0;
 }
 
-.activites__card-title {
+.activites-section__cards__card__title {
     height: 59px;
     display: flex;
     align-items: center;

@@ -1,10 +1,10 @@
 @media (max-width: 1024px) {
-    .filter-box {
+    .info-section__filter-box {
         flex-direction: column;
         align-items: start;
     }
 
-    .filter-box__list-element {
+    .info-section__filter-box__menu__element {
         flex-shrink: 0;
     }
 
@@ -12,35 +12,35 @@
         flex-direction: column;
     }
 
-    .hebergements {
+    .hebergements-section {
         width: 100%;
     }
 
-    .populaires {
+    .populaires-section {
         width: 100%;
         margin-top: 50px;
     }
 
-    .populaires__cards {
+    .populaires-section__cards {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
 
-    .populaires__cards a {
+    .populaires-section__cards a {
         width: 32%;
     }
 
     /* Activities */
-    .activites__card {
+    .activites-section__cards__card {
         max-width: 193px;
     }
 
-    .activites__card-image {
+    .activites-section__cards__card__image {
         height: 200px;
     }
 
-    .activites__card-title {
+    .activites-section__cards__card__title {
         height: 70px;
     }
 }

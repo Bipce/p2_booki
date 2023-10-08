@@ -9,21 +9,21 @@
     line-height: 19px;
 }
 
-.header__logo {
+.header__title__logo {
     width: 62px;
 }
 
-.header__list {
+.header__menu {
     display: flex;
     flex-direction: row;
     gap: 68px;
 }
 
-.header__list-element {
+.header__menu__element {
     padding-top: 18px;
 }
 
-.header__list-element:hover {
+.header__menu__element:hover {
     color: #0065FC;
     border-top: 2px solid var(--main-color);
     padding-top: 1rem;

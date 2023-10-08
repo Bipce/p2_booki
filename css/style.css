@@ -107,7 +107,7 @@ a {
     justify-content: space-between;
 }
 
-.hebergements, .populaires {
+.hebergements-section, .populaires-section {
     background-color: var(--main-bg-color);
     border-radius: 20px;
     padding: 30px;

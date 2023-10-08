@@ -1,41 +1,41 @@
-.hebergements {
+.hebergements-section {
     width: 65%;
 }
 
-.hebergements-cards {
+.hebergements-section__cards {
     display: flex;
     flex-direction: column;
     gap: 30px;
     margin-top: 30px;
 }
 
-.hebergements-card {
+.hebergements-section__cards__link__card {
     height: 100%;
 }
 
-.hebergements-cards__flex {
+.hebergements-section__cards--flex {
     display: flex;
     gap: 30px;
 }
 
-.hebergements-card__link {
+.hebergements-section__cards__link {
     flex: 1 1 0
 }
 
-.hebergements__card-image {
+.hebergements-section__cards__link__card__image {
     width: 100%;
     height: 124px;
     border-radius: 20px 20px 0 0;
 }
 
-.hebergements__card-content {
+.hebergements-section__cards__link__card__content {
     display: flex;
     flex-direction: column;
     gap: 8px;
     margin-top: 4px;
 }
 
-.hebergements__text {
+.hebergements-section__text {
     font-weight: 700;
     font-size: 18px;
     margin-top: 30px;

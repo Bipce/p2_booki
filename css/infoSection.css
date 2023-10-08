@@ -16,13 +16,13 @@
 }
 
 /*Form*/
-.form {
+.info-section__form {
     width: 377px;
     display: flex;
     align-items: center;
 }
 
-.form__icon-div {
+.info-section__form__icon-div {
     position: relative;
     width: 50px;
     height: 49px;
@@ -32,7 +32,7 @@
     border: 1px solid var(--main-bg-color);
 }
 
-.form__icon-location {
+.info-section__form__icon-div__icon {
     width: 14px;
     height: 18px;
     color: black;
@@ -41,7 +41,7 @@
     left: 18px;
 }
 
-.form__input {
+.info-section__form__input {
     height: 49px;
     flex: 1;
     font-weight: 700;
@@ -50,7 +50,7 @@
     outline: none;
 }
 
-.form__btn {
+.info-section__form__btn {
     width: 132px;
     background-color: var(--main-color);
     border: none;
@@ -61,40 +61,40 @@
 }
 
 .form__btn-icon,
-.form__input-icon {
+.info-section__form__input-icon {
     display: none;
 }
 
 /*Filter*/
-.filter-box {
+.info-section__filter-box {
     display: flex;
     align-items: center;
     gap: 15px;
 }
 
-.filter-box__list {
+.info-section__filter-box__menu {
     display: flex;
     gap: 15px;
 }
 
-.filter-box__list-element {
+.info-section__filter-box__menu__element {
     font-weight: 700;
     border: 2px solid var(--main-bg-color);
     border-radius: 25px;
     padding: 12px 22px;
 }
 
-.filter-box__list-element:hover {
+.info-section__filter-box__menu__element:hover {
     background-color: var(--filter-bg-color);
 }
 
-.filter-box__list-icon {
+.info-section__filter-box__menu__element__icon {
     margin-right: 10px;
     font-size: 20px;
 }
 
 /*Info text*/
-.info-text__icon {
+.info-section__text__icon {
     border: 1px solid #d9d9d9;
     border-radius: 100%;
     font-size: 13px;
