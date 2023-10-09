@@ -22,13 +22,13 @@
         width: 50%;
         padding-top: 0;
         padding-bottom: 17px;
+        border-bottom: 2px solid var(--main-bg-color);
     }
 
     .header__menu__element:hover {
         border-top: none;
         border-bottom: 2px solid var(--main-color);
         padding-top: 0;
-        padding-bottom: 15px;
     }
 
     /*Info Section*/
@@ -38,7 +38,6 @@
 
     /*Form*/
     .info-section__form {
-        max-width: 330px;
         width: 100%;
     }
 
@@ -74,7 +73,11 @@
     }
 
     .info-section__filter-box__menu__element {
+        width: 48%;
         margin-bottom: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
     }
 
     /* Hebergements And Populaires  */
